@@ -17,7 +17,7 @@ const CONF = {
      * 开发环境下，MySQL 的初始密码为您的微信小程序 appid
      */
     mysql: {
-        host: 'localhost',
+        host: '49.234.232.208',
         port: 3306,
         user: 'root',
         db: 'websites',
@@ -40,7 +40,12 @@ const CONF = {
 
     // 微信登录态有效期
     wxLoginExpires: 7200,
-    wxMessageToken: 'abcdefgh'
+    wxMessageToken: 'abcdefgh',
+
+    // tunnelSignatureKey:'AKIDMo0LXYDn0f3DRSfB2h7GLBoDNHXut62i',
+    qcloudAppId: '1257913872',
+    qcloudSecretId: 'AKIDMo0LXYDn0f3DRSfB2h7GLBoDNHXut62i',
+    qcloudSecretKey: 'pPkmnbARmqBGBsNbpmR9etrYyIDrKWR5',
 }
 
 module.exports = CONF
