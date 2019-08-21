@@ -16,5 +16,5 @@ const router = require('./routes')
 app.use(router.routes())
 
 // 启动程序，监听端口
-// 再再再再测试是否自动拉取git
+// 再再再再再1测试是否自动拉取git
 app.listen(config.port, () => debug(`listening on port ${config.port}`))
