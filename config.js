@@ -42,7 +42,10 @@ const CONF = {
     wxLoginExpires: 7200,
     wxMessageToken: 'abcdefgh',
 
-    // tunnelSignatureKey:'AKIDMo0LXYDn0f3DRSfB2h7GLBoDNHXut62i',
+    serverHost: '',
+    tunnelServerUrl: '',
+    tunnelSignatureKey: '',
+
     qcloudAppId: '1257913872',
     qcloudSecretId: 'AKIDMo0LXYDn0f3DRSfB2h7GLBoDNHXut62i',
     qcloudSecretKey: 'pPkmnbARmqBGBsNbpmR9etrYyIDrKWR5',
