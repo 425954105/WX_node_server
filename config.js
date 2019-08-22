@@ -20,9 +20,8 @@ const CONF = {
         host: '49.234.232.208',
         port: 3306,
         user: 'root',
-        db: 'websites',
-        pass: 'aa0aaa0cb921205a',
-        // pass: 'wxef63e5ba117a194c',
+        db: 'yuedu',
+        pass: 'wxef63e5ba117a194c',
         char: 'utf8mb4'
     },
 
