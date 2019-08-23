@@ -19,8 +19,8 @@ const CONF = {
     mysql: {
         host: '49.234.232.208',
         port: 3306,
-        user: 'root',
-        db: 'yuedu',
+        user: 'cAuth',
+        db: 'cAuth',
         pass: 'wxef63e5ba117a194c',
         char: 'utf8mb4'
     },
@@ -30,7 +30,7 @@ const CONF = {
          * 地区简称
          * @查看 https://cloud.tencent.com/document/product/436/6224
          */
-        region: 'ap-guangzhou',
+        region: 'cn-east',
         // Bucket 名称
         fileBucket: 'qcloudtest',
         // 文件夹
